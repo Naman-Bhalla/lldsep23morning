@@ -1,4 +1,4 @@
-package com.scaler.numberprinter;
+package com.scaler.numberprinterthreadpool;
 
 public class NumberPrinter implements Runnable {
     private int numberToPrint;
