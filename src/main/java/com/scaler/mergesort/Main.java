@@ -11,7 +11,7 @@ public class Main {
                 8, 2, 4, 1, 9, 6, 0, 7
         );
 
-        ExecutorService es = Executors.newCachedThreadPool();
+        ExecutorService es = Executors.newFixedThreadPool(5);
 
         Sorter sorter = new Sorter(arrayToSort, es);
 

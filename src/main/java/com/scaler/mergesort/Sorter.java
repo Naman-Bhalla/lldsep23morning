@@ -22,6 +22,10 @@ public class Sorter implements Callable<List<Integer>> {
             return arrayToSort;
         }
 
+        if (arrayToSort.size() <= 2000) {
+            // non multithread
+        }
+
         List<Integer> leftArrayToSort = new ArrayList<>();
         List<Integer> rightArrayToSort = new ArrayList<>();
 
