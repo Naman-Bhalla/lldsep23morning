@@ -25,7 +25,7 @@ public class Producer implements Runnable {
             }
             System.out.println("Producing an item by producer #: " + producerNUmber);
             try {
-                store.setItemsCount(store.getItemsCount() + 1);
+//                store.setItemsCount(store.getItemsCount() + 1);
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

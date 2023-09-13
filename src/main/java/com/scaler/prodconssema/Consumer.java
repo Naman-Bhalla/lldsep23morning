@@ -25,7 +25,7 @@ public class Consumer implements Runnable {
             }
             System.out.println("Consuming by Consumer #: " + consumerNumber);
                 try {
-                    store.setItemsCount();
+                    store.setItemsCount(0);
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
