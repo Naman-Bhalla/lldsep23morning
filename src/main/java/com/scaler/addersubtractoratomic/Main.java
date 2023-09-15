@@ -24,4 +24,8 @@ public class Main {
 
         es.shutdown();
     }
+
+//    public static double getAreaOfCircle(int radius) {
+//        return  * radius * radius;
+//    }
 }

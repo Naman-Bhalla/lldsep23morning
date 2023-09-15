@@ -11,6 +11,7 @@ public class Adder implements Callable<Void> {
 
     @Override
     public Void call() throws Exception {
+//        Math m = new Math();
 
         for (int i = 1; i <= 100; ++i) {
             value.value += i;
